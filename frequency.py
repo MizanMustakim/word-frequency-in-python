@@ -1,5 +1,5 @@
 try:
-    with open(r"C:\Users\lenovo\Desktop\final project.txt", "w") as file:
+    with open(r"C:\Users\lenovo\Desktop\final project.txt", "w") as file:   #here you have to write the path directory on your pc, where your file is located.
         sentence = "There is something new"
         frequency = {}
         for words in sentence:

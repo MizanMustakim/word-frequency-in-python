@@ -5,11 +5,11 @@ try:
         for words in sentence:
             if words != " ":
                 frequency[words] = frequency.get(words, 0) + 1
-                # the line is a short form of this:
-                # (if words in frequency:
-                # frequency[words] += 1
+                # this line is the shorter form of this ---> ⬇⬇⬇
+                # if words in frequency:
+                #   frequency[words] += 1
                 # else:
-                # frequency[words] = 1)
+                #   frequency[words] = 1
         
         sorts = sorted(frequency.items(),
                        key=lambda row: row[1],
